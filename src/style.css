@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("fonts/RobotoMono-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("fonts/RobotoMono-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("fonts/RobotoMono-Light.ttf");
+    font-weight: 300;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	background-color: #340D1B;
+	color: #FFFFFF;
+}
+
+input, button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+button:focus {
+	outline: 0;
+}
+
+h1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background-color: #751D3D;
+}
+
+#debug {
+	display: block;
+	padding: 20px;
+}
+
+#debug-menu {
+	display: none;
+	height: 100vh;
+}
+
+input[type="text"] {
+	margin-left: 20px;
+	background-color: #751D3D;
+	padding: 6px;
+	color: #FFFFFF;
+}
+
+.small {
+	width: 80px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.grater {
+	font-size: 64px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.timer {
+	text-align: center;
+	font-size: 24px;
+	background-color: #8E234A;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #B7738B;
+}
+
+.timer span {
+	text-shadow: 0 0 8px #4E1429;
+}
+
+button {
+	display: block;
+	margin: 20px;
+	padding: 20px;
+	width: calc(100% - 40px);
+	border: 0;
+	background-color: #8E234A;
+	color: #FFFFFF;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+button:hover {
+	background-color: #751D3D;
+}
+
+#sec {
+	display: inline-block;
+	min-width: 80px;
+	max-width: 80px;
+}
+
+#min {
+	display: inline-block;
+	min-width: 45px;
+	max-width: 45px;
+}
+
+#ms {
+	display: inline-block;
+	min-width: 42px;
+	max-width: 42px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.footer a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #8E234A;
+}
